@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Projects</title>
+
+    <!-- Box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/393fb51165.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="img/pugLogo2.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Pablo.</a>
+
+      <input type="checkbox" id="menu" />
+
+      <label for="menu">
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </label>
+      <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="index.html">About</a>
+        <a href="cv.html">CV</a>
+        <a href="#skills">Proyects</a>
+        <a href="index.html">Contact</a>
+
+        <span class="active-nav"></span>
+      </nav>
+    </header>
+
+    <!-- Project section desing -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <section class="project1" id="project1">
+        <div class="project1-row">
+          <div class="project1-column">
+            <h3 class="title">3D Gallery</h3>
+
+            <div class="project1-box">
+              <div class="project1-content">
+                <p>
+                  This project consist on a gallery of photos that are
+                  constantly rotating, if you hover over any of the photos, it
+                  will rise a bit. <br />To make this animation I used a
+                  Keyframe to made it rotate and a :hover to made it rise a bit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project1-column">
+            <div class="project1-box">
+              <div class="project1-contentNo">
+                <img src="img/Galeria3D.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project2" id="project2">
+        <div class="project2-row">
+          <div class="project2-column">
+            <div class="project2-box">
+              <div class="project2-contentNo">
+                <div class="card">
+                  <picture class="imgBox">
+                    <img src="img/torreEiffel.jpg" />
+                    <img src="img/pugLogo2.png" />
+                  </picture>
+                  <div class="details">
+                    <div class="contento">
+                      <h2>
+                        Pablo Naranjo
+                        <br />
+                        <span> Desarrollador Full-Stack </span>
+                      </h2>
+                      <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project2-column">
+            <h3 class="title">Visit Card</h3>
+            <div class="project2-box">
+              <div class="project2-content">
+                <p>
+                  This project consist on a photo that if you hover over it, the
+                  picture will open like a book and revel on the inside some
+                  text of myself. <br />
+                  To make this animation I used a :hover on the photo and
+                  rotateY to made it turn.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="project3" id="project3">
+      <div class="project3-row">
+        <div class="project3-column">
+          <h3 class="title">Integrated Project</h3>
+          <div class="project3-box">
+            <div class="project3-content">
+              <p>
+                This project consist on a aplication that allows you to manage
+                projects. The way this works is by making queries to a database
+                made on MySQL. The aplication allows you to create, delete or
+                search a project, to create, delete or search a student and to
+                create or delete an area. <br />
+                The hard part was to create restrictions so that the user could
+                not make anything that damaged the database.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="project3-column">
+          <div class="project3-box">
+            <div class="project3-contentNo">
+              <img src="img/pmg.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer2">
+      <div class="footer-text">
+        <p>Copyright &copy, 2023 by Pablo Naranjo | All Right Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

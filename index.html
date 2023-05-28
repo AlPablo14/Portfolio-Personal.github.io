@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+
+    <!-- Box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/pugLogo2.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- heder desing -->
+    <header class="header">
+      <a href="#" class="logo">Pablo.</a>
+
+      <input type="checkbox" id="menu" />
+
+      <label for="menu">
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </label>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="cv.html">CV</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+
+        <span class="active-nav"></span>
+      </nav>
+    </header>
+
+    <!-- home section desing -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>
+          Hi, I'm <span><u>Pablo Naranjo</u> </span>
+        </h1>
+        <div class="text-animate">
+          <h3>Full-Stack Developer</h3>
+        </div>
+        <p>Based in Madrid, Spain</p>
+        <div class="btn-box">
+          <a href="#about" class="btn">Hire Me</a>
+          <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+      </div>
+
+      <div class="home-imgHover"></div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <div class="about-img">
+        <img src="img/yo.jpg" alt="" />
+        <span class="circle-spin"></span>
+      </div>
+      <div class="about-content">
+        <h3>Frontend Developer</h3>
+        <p>
+          I am a student about to graduate. Throughout my education, I have
+          acquired technical skills in programming, web design, databases, and I
+          am eager to apply them to innovative projects. I consider myself a
+          dedicated worker who is constantly learning, willing to take on new
+          challenges, and contribute to the success of any project.
+        </p>
+        <div class="btn-box btns">
+          <a
+            href="archivos/PabloNaranjoCid.pdf"
+            class="btn"
+            class="descargar"
+            download
+            >See More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section desing -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="mailto:pablonaranjocid@gmail.com" method="post">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Full Name" required />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Address" required />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="number" placeholder="Mobile Number" required />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Subject" required />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="textarea-field">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer desing -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy, 2023 by Pablo Naranjo | All Right Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
